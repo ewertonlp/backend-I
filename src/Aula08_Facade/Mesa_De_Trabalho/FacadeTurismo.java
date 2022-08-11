@@ -10,12 +10,11 @@ public class FacadeTurismo implements IFacadeTurismo {
         apiHotel = new ApiHotel();
     }
 
-    @Override
-    public String buscas(Voo voo, Hotel hotel) {
-        System.out.println("Cidade disponível: "+hotel.getCidade());
-        System.out.println("Data da Partida: "+voo.getDataPartida());
-        System.out.println("Data de Retorno: "+voo.getDataRetorno());
-        return null;
-    }
 
+    @Override
+    public Viagem buscas(Viagem viagem) {
+        viagem.setCiaAerea(apiVoo.listaVoo(viagem.getDataPartida(), viagem.getDataRetorno(), viagem.getCidadeOrigem(), viagem.getCidadeDestino()));
+        viagem.setHotel(apiHotel.listaHotel(viagem.getDataPartida(), viagem.getDataRetorno(), viagem.getCidadeDestino()));
+        return viagem;
+    }
 }

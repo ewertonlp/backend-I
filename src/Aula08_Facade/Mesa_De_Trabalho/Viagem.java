@@ -7,15 +7,21 @@ public class Viagem {
     private String ciaAerea;
     private LocalDate dataPartida;
     private LocalDate dataRetorno;
-    private String cidade;
+    private String cidadeOrigem;
+    private String cidadeDestino;
     private String Hotel;
 
-    public Viagem(String ciaAerea, LocalDate dataPartida, LocalDate dataRetorno, String cidade, String hotel) {
-        this.ciaAerea = ciaAerea;
+
+    public Viagem( LocalDate dataPartida, LocalDate dataRetorno, String cidadeOrigem, String cidadeDestino, String hotel) {
+        
         this.dataPartida = dataPartida;
         this.dataRetorno = dataRetorno;
-        this.cidade = cidade;
+        this.cidadeOrigem = cidadeOrigem;
+        this.cidadeDestino = cidadeDestino;
         Hotel = hotel;
+    }
+
+    public Viagem(LocalDate of, LocalDate of1, String são_paulo, String dubai) {
     }
 
     public String getCiaAerea() {
@@ -42,12 +48,20 @@ public class Viagem {
         this.dataRetorno = dataRetorno;
     }
 
-    public String getCidade() {
-        return cidade;
+    public String getCidadeOrigem() {
+        return cidadeOrigem;
     }
 
-    public void setCidade(String cidade) {
-        this.cidade = cidade;
+    public void setCidadeOrigem(String cidadeOrigem) {
+        this.cidadeOrigem = cidadeOrigem;
+    }
+
+    public String getCidadeDestino() {
+        return cidadeDestino;
+    }
+
+    public void setCidadeDestino(String cidadeDestino) {
+        this.cidadeDestino = cidadeDestino;
     }
 
     public String getHotel() {
@@ -64,7 +78,8 @@ public class Viagem {
                 "ciaAerea='" + ciaAerea + '\'' +
                 ", dataPartida=" + dataPartida +
                 ", dataRetorno=" + dataRetorno +
-                ", cidade='" + cidade + '\'' +
+                ", cidadeOrigem='" + cidadeOrigem + '\'' +
+                ", cidadeDestino='" + cidadeDestino + '\'' +
                 ", Hotel='" + Hotel + '\'' +
                 '}';
     }

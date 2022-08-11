@@ -1,13 +1,19 @@
 package Aula08_Facade.Mesa_De_Trabalho;
 
 
-import java.util.ArrayList;
+import java.time.LocalDate;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
 public class ApiHotel {
 
-    List<String> hoteis = Arrays.asList("Hotel1", "Hotel2", "Hotel3");
-    Random r = new Random();
+    public String listaHotel(LocalDate dataPartida, LocalDate dataRetorno,String cidadeDestino) {
+        List<String> hoteis = Arrays.asList("Hilton", "Royal", "Fasano");
+        Random r = new Random();
+        return hoteis.get(r.nextInt(hoteis.size()));
+    }
+
+
 }
