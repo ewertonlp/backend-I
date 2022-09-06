@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface IUsuarioService {
 
-    public void cadastraUsuario(Usuario usuario);
+    public String cadastraUsuario(String nome, String email, String senha, String nivelAcesso);
 
     List<Usuario> listarTodosUsuario();
 
-    public void excluirUsuarioById(Integer idUsuario);
+    public String excluirUsuarioById(Integer idUsuario);
 }
