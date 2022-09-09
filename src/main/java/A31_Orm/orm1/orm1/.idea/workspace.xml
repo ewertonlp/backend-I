@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f7c51ed-fe38-4c92-9c85-00c0765f33e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../EcommerceCliente/EcommerceCliente/src/main/java/com/example/EcommerceCliente/JSonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../EcommerceCliente/EcommerceCliente/src/main/java/com/example/EcommerceCliente/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../EcommerceCliente/EcommerceCliente/src/main/java/com/example/EcommerceCliente/ProdutoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../EcommerceCliente/EcommerceCliente/src/main/java/com/example/EcommerceCliente/ProdutoClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../filmes/filmes/createFilme.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../filmes/filmes/src/main/java/Controller/FilmeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../filmes/filmes/src/main/java/Dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../filmes/filmes/src/main/java/Dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../filmes/filmes/src/main/java/Dao/impl/FilmeDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../filmes/filmes/src/main/java/Service/FilmeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../filmes/filmes/src/main/java/model/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../filmes/filmes/src/main/java/model/FilmeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ecommerceMVC/src/main/java/com/example/ecommerceMVC/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ecommerceMVC/src/main/java/com/example/ecommerceMVC/controller/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ecommerceMVC/src/main/java/com/example/ecommerceMVC/dao/impl/ProdutoDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ecommerceMVC/src/main/java/com/example/ecommerceMVC/dao/impl/ProdutoDaoH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ecommerceMVC/src/main/java/com/example/ecommerceMVC/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ecommerceMVC/src/main/java/com/example/ecommerceMVC/model/Produto.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EMtK6w7RrT8E2eYAaydbaVffGc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f7c51ed-fe38-4c92-9c85-00c0765f33e7" name="Changes" comment="" />
+      <created>1662417214186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662417214186</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
