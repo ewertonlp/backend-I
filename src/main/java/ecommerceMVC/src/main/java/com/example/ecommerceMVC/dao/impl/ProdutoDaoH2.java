@@ -171,7 +171,7 @@ public class ProdutoDaoH2 implements IDao<Produto> {
     }
 
     private Produto criarObjetoProduto(ResultSet resultSet) throws SQLException{
-        Integer id = resultSet.getInt("ID");
+        int id = resultSet.getInt("ID");
         String nomeProduto = resultSet.getString("nomeProduto");
         double valor = resultSet.getDouble("valor");
 

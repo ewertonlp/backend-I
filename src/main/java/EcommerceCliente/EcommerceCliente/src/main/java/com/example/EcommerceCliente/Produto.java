@@ -1,4 +1,4 @@
-package com.example.ecommerceMVC.model;
+package com.example.EcommerceCliente;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,12 +9,10 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class Produto {
 
     private int id;
     private String nomeProduto;
     private double valor;
-
-
-
 }
