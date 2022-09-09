@@ -3,9 +3,7 @@ package com.dh.clinicaOdontologica.controller;
 import com.dh.clinicaOdontologica.model.Usuario;
 import com.dh.clinicaOdontologica.service.impl.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -24,4 +22,16 @@ public class UsuarioController {
     public List<Usuario> listarTodosUsuarios(){
         return usuarioService.listarTodosUsuario();
     }
+
+    @GetMapping("/cadastra")
+    public String cadastraUsuario(@RequestParam String nome, @RequestParam String email,
+                                  @RequestParam String senha, @RequestParam String nivelAcesso){
+       return usuarioService.cadastraUsuario(nome, email, senha, nivelAcesso);
+    }
+
+    @GetMapping("/delete/{idUsuario}")
+    public String deletaUsuarioById(@PathVariable Integer idUsuario){
+        return usuarioService.excluirUsuarioById(idUsuario);
+    }
+
 }

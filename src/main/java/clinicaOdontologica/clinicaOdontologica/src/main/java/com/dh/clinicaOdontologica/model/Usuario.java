@@ -56,5 +56,12 @@ public class Usuario {
         this.nivelAcesso = nivelAcesso;
     }
 
-
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "idUsuario=" + idUsuario +
+                ", nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }

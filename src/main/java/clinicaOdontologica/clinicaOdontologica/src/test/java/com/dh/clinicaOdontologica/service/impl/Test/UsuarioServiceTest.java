@@ -5,7 +5,7 @@ import com.dh.clinicaOdontologica.service.impl.UsuarioService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class UsuarioServiceTest {
 
@@ -18,8 +18,7 @@ class UsuarioServiceTest {
 
      @Test
     public void cadastrarUsuario() {
-        Usuario usuario = new Usuario("Lucas", "lucas@gmail.com", "1234", "Admin");
-        usuarioService.cadastraUsuario(usuario);
+        usuarioService.cadastraUsuario("Lucas", "lucas@gmail.com", "1234", "Admin");
      }
 
      @Test
